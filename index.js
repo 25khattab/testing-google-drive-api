@@ -137,5 +137,5 @@ async function upload(authClient) {
     }
 }
 
-let fileName = "Python-3.8.0.tar.xz";
+let fileName = "photo.jpg";
 authorize().then(upload).catch(console.error);
